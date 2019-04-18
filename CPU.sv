@@ -14,6 +14,7 @@ module CPU
 wire PC_regwrite;
 wire [63:0] PC_DadosOut;
 
+
 // saidas e controle Memoria de instrucao
 wire [31:0] Memory_Instruction_DataOut;
 
