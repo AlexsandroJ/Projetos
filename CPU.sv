@@ -62,13 +62,8 @@ wire igual;
 wire maior;
 wire menor;
 
-// entradas e saidas Memoria de Dados
-wire [63:0] DataMemory_Raddress;
-wire [63:0] DataMemory_Waddress;
-wire [63:0] DataMemory_DataIn;
-wire [63:0] DataMemory_DataOut;
-wire DataMemory_wr;
-// modificação 2
+//newe
+// oasdjoasodjasod
 
 	register PC( 						.clk(						clock							), 
 										.reset(						reset							), 
