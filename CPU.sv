@@ -14,7 +14,7 @@ module CPU
 wire PC_regwrite;
 wire [63:0] PC_DadosOut;
 // teste da ferramenta
-
+// modificação 1
 // saidas e controle Memoria de instrucao
 wire [31:0] Memory_Instruction_DataOut;
 
@@ -68,7 +68,7 @@ wire [63:0] DataMemory_Waddress;
 wire [63:0] DataMemory_DataIn;
 wire [63:0] DataMemory_DataOut;
 wire DataMemory_wr;
-
+// modificação 2
 
 	register PC( 						.clk(						clock							), 
 										.reset(						reset							), 
