@@ -51,17 +51,7 @@ wire [2:0] Mux64_Ula_B_Seletor;
 wire [63:0] Mux64_Ula_B_Out;
 
 // saidas e controle Da ULA
-wire [31:0] A;
-wire [31:0] B;
-wire [31:0] S;
-wire [3:0] Seletor;
-wire overFlow;
-wire negativo;
-wire z;
-wire igual;
-wire maior;
-wire menor;
-
+// 6 commit
 //newe
 // oasdjoasodjasod
 
